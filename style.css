@@ -5,27 +5,64 @@
 }
 header {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: #0A22F4;
 }
 .h-dots {
+    /* padding-top: 50px; */
+    padding: 55px 75px;
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 100%;
     height: 50px;
-    background-color: aquamarine;
+    background-color: #0A22F4;
 }
 h1 {
     color: #ffffff;
     display: inline-block;
+    letter-spacing: 3px;
+    font-size: 32px;
 }
 .dots {
-    display: inline-block;
+    display: flex;
 }
 .dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    display: inline-block;
+    margin: 7px;
+    width: 7px;
+    height: 7px;
+    background-color: #969292;
     border-radius: 15px ;
+}
+.dot:first-child {
+    background-color: #ffffff;
+}
+.building-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.building {
+    display: inline-block;
+}
+.building img {
+    width: 250px;
+    height: 250px;
+}
+.building p {
+    width: 250px;
+    height: 120px;
+}
+.bottomp {
+    width: 80%;
+}
+.bottomp p {
+    text-align: right;
+    font-weight: bold;
+}
+.another::before {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 11px;
+    background-color: rgb(87, 85, 85);
+    margin-right: 15px;
 }
